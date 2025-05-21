@@ -1,10 +1,10 @@
-import logo from '../assets/chef-claude-icon.png'
+import logo from "../assets/chef-claude-icon.png";
 
 export default function Header() {
-    return <header>
-        <div className="header">
-            <img src={logo} alt='logo' />
-            <h1>Chef Claude</h1>
-        </div>
+  return (
+    <header>
+      <img src={logo} alt="logo" />
+      <h1>Chef Claude</h1>
     </header>
+  );
 }
